@@ -3,60 +3,66 @@
 
 <head>
   <meta charset="utf-8">
-  <title>Mohan's Personal Site</title>
+  <title>Mohan Krishna</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1>My name is Mohan</h1>
-  <p><em>I just <b> graduated class 12</b></em></p>
-  <p>I play basketball,and I love eating food </p>
-  <hr>
+  <div class="top-container">
+    <img class="top-cloud" src="images/cloud.png" alt="cloud-image">
+    <h1>I'm Mohan</h1>
+    <!--these are block display elements-->
+    <h2>a student</h2>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud-image">
+    <!--these are inline elements(img,span,<a>)-->
+    <img src="images/mountain.png" alt="mountain-image">
+  </div>
+  <!-- div(CONTENT DIVISION ELEENT)is only to struture and divide your content,
+     div has no function on its own,it requires css to function -->
+  <div class="middle-container">
+    <div class="profile">
+      <img src="images/man.png" alt="man icon">
+      <h2 style="margin-top:20px;">Hello.</h2>
+      <p>I'm from Chennai, I graduated high school and I am going to persue my bachelors degree in Singapore.</p>
+    </div>
+    <br>
+    <hr>
+    <div class="skills">
+      <h2>My Skills.</h2>
+      <div class="skill-row">
+        <img class="basketball" src="images/ball.png" alt="basketball">
+        <h3>Basketball handles</h3>
+        <p>I can dribble the ball very well and have good handles.</p>
+      </div>
+      <br><br>
+      <div class="skill-row">
+        <img class="tools" src="images/tools.png" alt="tools">
+        <h3>Fixing things</h3>
+        <p>I have a nack at fixing and engineering things.</p>
+      </div>
+    </div>
+    <br><br><br><br><br>
+    <hr>
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>You like playing basketball too?</h3>
+      <p>If you love playing basketball, lets talk more about the skills  that you've learnt in the sport.</p>
+      <a href="#" class="BUTTON_ILW">CONTACT ME</a>
+      <br><br><br>
+    </div>
+  </div>
 
-
-  <h3>Grades</h3>
-  <table cellspacing="10">
-    <thead>
-      <th>Class </th>
-      <th>Grade </th>
-    </thead>
-    <tbody>
-      <tr>
-        <td>11th class</td>
-        <td>"B"</td>
-      </tr>
-      <tr>
-        <td>12th class</td>
-        <td>"A"</td>
-      </tr>
-    </tbody>
-  </table>
-  <hr>
-  <h3>Skills</h3>
-  <table cellpadding="10">
-    <tr>
-      <td>cooking
-      <td>⭐⭐⭐⭐</td>
-      <td>sports</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-    <tr>
-      <td>singing </td>
-      <td>⭐⭐⭐</td>
-      <td>coding </td>
-      <td>⭐</td>
-    </tr>
-    </tr>
-  </table>
-  <hr>
-  <h3><a href="hobbies.html">My hobbies</a></h3>
-  <br>
-  CONTACT <a href="contact.html">here</a>
-
-
-
-
-
+  <div class="end">
+    <div class="bottom-container">
+      <br><br>
+      <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+      <a class="footer-link" href="https://twitter.com/">Twitter</a>
+      <a class="footer-link" href="https://www.appbrewery.co/">Website</a>
+      <p style="color:#EAF6F6;">© 2021 Mohan Krishna.</p>
+    </div>
+  </div>
 
 
 
